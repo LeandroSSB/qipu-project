@@ -12,7 +12,7 @@ class Product {
   }
 
 
-  static saveProduct (ProductModel = new Product) {
+  static saveProduct (ProductModel = new Product()) {
     const products = JSON.parse(localStorage.getItem("@qipu:products")) || []
     products.push(ProductModel)
     localStorage.setItem("@qipu:products", JSON.stringify(products))
