@@ -6,7 +6,7 @@ class Category {
     this.name = name
   }
 
-  static saveCategory(CategoryModel = new Category("example")) {
+  static saveCategory(CategoryModel = new Category("")) {
     const categories = JSON.parse(localStorage.getItem("@qipu:categories")) || []
     categories.push(CategoryModel)
     localStorage.setItem("@qipu:categories", JSON.stringify(categories))

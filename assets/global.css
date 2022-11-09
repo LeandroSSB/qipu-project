@@ -1,0 +1,54 @@
+* {
+  font-family: 'Roboto', sans-serif !important;
+}
+
+:root {
+  
+}
+
+
+.landingPageModal {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+}
+
+.landingPageModal > header > hr {
+  width: 90vw;
+  height: 1px;
+  background-color: aqua;
+}
+
+.landingPageModal > header{
+  display: flex;
+  flex-flow: column;
+}
+.landingPageModal > header > span {
+  padding-top: 1rem;
+  margin: 0 auto;
+}
+
+.landingPageModal > header > h1 {
+  font-size: 2rem;
+  margin: 1rem 1rem 0rem 1rem;
+  text-align: center;
+}
+
+.landingPageModal > header > h3 {
+  margin: 1rem 1rem 2rem 1rem;
+}
+
+.landingPageModal > footer {
+  display: flex;
+  justify-content: center;
+}
+.landingPageModal > footer > button {
+  width: 100vw;
+  height: 3.5rem;
+  font-size: 1.5rem;
+  background-color: white;
+  border: none;
+  border-top: .2rem solid red;
+}
