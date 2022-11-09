@@ -1,0 +1,16 @@
+{
+  "name": "qipu-project",
+  "version": "1.0.0",
+  "repository": {
+    "url": ""
+  },
+  "description": "A challenge requested by QYPU's seletive process.",
+  "main": "main.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel index.html"
+  },
+  "dependencies": {
+    "parcel": "^2.8.0"
+  }
+}
