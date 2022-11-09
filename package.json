@@ -6,11 +6,5 @@
   },
   "description": "A challenge requested by QYPU's seletive process.",
   "main": "main.js",
-  "license": "MIT",
-  "scripts": {
-    "dev": "parcel index.html"
-  },
-  "dependencies": {
-    "parcel": "^2.8.0"
-  }
+  "license": "MIT"
 }
